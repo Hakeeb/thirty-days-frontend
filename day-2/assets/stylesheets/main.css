@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+========================
+Custom Styles
+========================
+*/
+
+body {
+  background: #111118;
+  color: #848491;
+  font-family: "Raleway", sans-serif;
+  line-height: 21px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+========================
+Header
+========================
+*/
+
+header {
+  padding: 50px 40px 7px 40px;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 35px;
+  padding-left: 45px;
+  width: 15%;
+  vertical-align: top;
+}
+
+nav {
+  color: #848491;
+  display: inline-block;
+  font-size: 12px;
+  padding: 40px 40px 30px 10px;
+  width: 60%;
+  vertical-align: top;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+nav li a {
+  color: #848491;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  border-bottom: 2px solid #6fb586;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-me {
+  display: inline-block;
+  padding: 25px 20px;
+  text-align: right;
+  width: 25%;
+  vertical-align: top;
+}
+
+.contact-me span {
+  display: block;
+  color: #6fb586;
+  font-size: 11px;
+}
+
+.contact-me a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 100px 0 120px 260px;
+}
+
+
+/*
+========================
+Main Body
+========================
+*/
+
+.hero h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.hero p {
+  font-family: 'Playfair display', serif;
+  font-size: 30px;
+  line-height: 47px;
+  padding-top: 20px;
+}
+
+.hero a {
+  border-bottom: 1px solid #848491;
+  color: #848491;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+
+/*
+========================
+Footer
+========================
+*/
+
+footer {
+  color: #34343c;
+  font-size: 11px;
+}
+
+.copyright {
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 260px;
+  width: 90%;
+}
+
+.scroll-down {
+  background: #191922;
+  display: inline-block;
+  padding: 50px 55px;
+  width: 10%;
+}
+
+.scroll-down:hover {
+  background: #6fb586;
+}
