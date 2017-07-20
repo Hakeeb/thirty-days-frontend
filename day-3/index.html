@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Day 3 | Checkout Page</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1b4d2e7080.js"></script>
+  </head>
+  <body><a href="#"></a>
+    <header>
+      <div class="header-left">
+        <p><span id="header-icon" class="fa fa-angle-left"></span> Back</p>
+      </div><!--
+      --><div class="header-middle">
+        <img src="assets/images/logo.png" alt="Piply Logo">
+      </div><!--
+      --><div class="header-right">
+        <p><span id="header-icon" class="fa fa-shopping-basket"></span> Your Basket: <span id="price">&euro; 35.80</span></p>
+      </div>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <h1>Checkout</h1>
+        <p>Currently logged in as bhakeeb&#64;gmail.com</p>
+        <a href="#">Not your account? Sign out</a>
+      </div>
+      <div class="block">
+        <hr class="block-hr"><!--
+        --><h2>Payment Information</h2><!--
+        --><hr class="block-hr">
+        <form action="#" method="post">
+          <label class="radio-label">
+            <input type="radio" name="card" required checked>
+            <span id="card-type" class="fa fa-cc-visa"></span> VISA ending in <span id="card-number">4402</span>
+          </label><!--
+          --><label class="cvv-label">
+            CVV <span class="fa fa-info-circle"></span>
+            <input id="cvv-input" type="text" name="cvv" placeholder="123" required>
+          </label><!--
+          --><a class="remove-label" href="#">Remove</a>
+          <hr class="seperator">
+          <a href="#"><span class="fa fa-plus"></span> Add new card</a>
+            <input class="btn" type="submit" name="" value="Confirm &amp; Pay &euro;35.80">
+        </form>
+      </div>
+      <hr class="block-seperator">
+      <div class="block">
+        <hr class="block-hr"><!--
+        --><h2>Delivery Details</h2><!--
+        --><hr class="block-hr">
+        <table>
+          <tbody>
+            <tr>
+              <th>Phone Number</th>
+              <td>0871234637</td>
+              <td><a href="#">Edit</a></td>
+            </tr>
+            <tr>
+              <th>Delivery Address</th>
+              <td>34 Mountpleasant Avenue Upper, Ranelagh, Dublin 6...</td>
+              <td><a href="#">Edit</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <hr class="footer-hr"><!--
+        --><img class="footer-img" src="assets/images/footer-logo.png" alt="Footer Logo"><!--
+        --><hr class="footer-hr">
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li><!--
+            --><li><a href="#">Blog</a></li><!--
+            --><li><a href="#">Legal</a></li>
+          </ul>
+        </nav>
+        <div>
+          <span class="fa fa-facebook"></span><!--
+          --><span class="fa fa-twitter"></span><!--
+          --><span class="fa fa-instagram"></span>
+        </div>
+        <p class="copyright">&copy; 2016 Piply Limited</p>
+      </div>
+    </footer>
+  </body>
+</html>

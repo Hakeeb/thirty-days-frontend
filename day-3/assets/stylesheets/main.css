@@ -1,0 +1,339 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+============================
+Custom Styles
+============================
+*/
+
+body {
+  background: #fbfbfc;
+  color: #83848b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: #2bb573;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2bb573;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2bb573;
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px solid #cfd5d4;
+}
+
+
+/*
+============================
+Header
+============================
+*/
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #cfd5d4;
+  padding: 10px 20px;
+}
+
+header div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header-left {
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 12px;
+  width: 30%;
+}
+
+.header-middle {
+  text-align: center;
+  width: 40%;
+}
+
+.header-middle img {
+  height: 42px;
+  width: 244px;
+}
+
+.header-right {
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 12px;
+  width: 30%;
+}
+
+#header-icon {
+  color: #2bb573;
+}
+
+#price {
+  color: #2bb573;
+}
+
+
+/*
+============================
+Body
+============================
+*/
+
+.container {
+  margin: 40px auto;
+  width: 45%;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h1 {
+  color: #525355;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.intro p {
+  margin: 8px 0;
+}
+
+.block-seperator {
+  margin: 25px auto;
+  width: 40%;
+}
+
+.block {
+  background-color: #fff;
+  border: 1px solid #cfd5d4;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.block-hr {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.block h2 {
+  color: #525355;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 40%;
+}
+
+form {
+  margin-top: 25px;
+}
+
+.radio-label {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 33.33%;
+}
+
+#card-type {
+  color: #2bb573;
+}
+
+#card-number {
+  font-weight: 700;
+}
+
+.cvv-label {
+  color: #000;
+  font-weight: 700;
+  display: inline-block;
+  padding-left: 40px;
+  vertical-align: bottom;
+  width: 33.33%;
+}
+
+.cvv-label span {
+  color: #2bb573;
+}
+
+#cvv-input {
+  font-size: 14px;
+  display: inline;
+  border: 1px solid #cfd5d4;
+  border-radius: 2px;
+  padding: 8px;
+  margin-left: 15px;
+  vertical-align: bottom;
+  width: 45px;
+}
+
+.remove-label {
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+  width: 33.33%;
+}
+
+.seperator {
+  display: block;
+  margin: 15px 0;
+  width: 100%
+}
+
+.btn {
+  background-color: #2bb573;
+  border: 1px solid #2bb573;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 235px;
+  padding: 10px 30px;
+}
+
+table {
+  margin-top: 10px;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px 0;
+  vertical-align: top;
+}
+
+th {
+  color: #000;
+  font-weight: bold;
+  padding-right: 40px;
+  text-align: left;
+}
+
+td a {
+  text-align: right;
+}
+
+
+/*
+============================
+Footer
+============================
+*/
+
+footer {
+   background-color: #fff;
+   border-top: 1px solid #cfd5d4;
+   text-align: center;
+}
+
+.footer-container {
+  margin: 20px auto;
+  width: 40%;
+}
+
+.footer-hr {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.footer-img {
+  display: inline-block;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  width: 78;
+}
+
+nav li {
+  display: inline-block;
+  font-weight: 700;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+nav li a {
+  color: #83848b;
+}
+
+footer span {
+  display: inline-block;
+  font-weight: 700;
+  padding: 15px 20px;
+  vertical-align: top;
+}
+
+.copyright {
+  font-size: 10px;
+}
