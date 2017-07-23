@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+==========================
+Custom Styles
+==========================
+*/
+
+body {
+  background: #3a5f9b;
+  color: #515658;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  line-height: normal;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+==========================
+Container
+==========================
+*/
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px rgba(10, 52, 84, 0.5);
+  margin: 57px auto;
+  padding: 16px;
+  width: 335px;
+}
+
+.top-nav span{
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.back {
+  text-align: left;
+}
+
+.back img {
+  height: 11px;
+  width: 21px;
+}
+
+.add {
+  text-align: right;
+}
+
+.add img {
+  height: 25px;
+  width: 25px;
+}
+
+/*
+==========================
+User Profile
+==========================
+*/
+
+.profile-highlights .followers,
+.profile-highlights .image-block,
+.profile-highlights .following {
+  display: inline-block;
+  vertical-align: middle;
+  width: 33.33%;
+}
+
+.followers {
+  text-align: left;
+}
+
+.followers span,
+.following span {
+  color: #212121;
+  font-weight: 700;
+}
+
+.image-block img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
+.image-block span {
+  background-color: #3cc0ea;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 7px;
+  font-weight: 700;
+  height: 20px;
+  left: 657px;
+  padding: 5px 3px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 155px;
+  width: 20px;
+}
+
+.following {
+  text-align: right;
+}
+
+.profile-details{
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 17px;
+}
+
+.profile-details h1{
+  color: #212121;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profile-details span {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.profile-details hr {
+  border-top: 1px solid #b6c4c7;
+  margin-bottom: 13px;
+  margin-top: 10px;
+  width: 25px;
+}
+
+.profile-details p {
+  line-height: 15px;
+}
+
+/*
+==========================
+User Works
+==========================
+*/
+
+nav {
+  border-top: 1px solid #b6c4c7;
+}
+
+nav li {
+  display: inline-block;
+  padding: 8px 0;
+  text-align: center;
+  vertical-align: top;
+  width: 33.33%;
+}
+
+nav li a {
+  color: #515658;
+  letter-spacing: 0.22px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.active {
+  border-bottom: 1.5px solid #fba937;
+}
+
+.active a {
+  color: #212121;
+  font-weight: 700;
+}
+
+.profile-logos {
+  background-color: #f4f8f9;
+}
+
+.profile-logos {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: -16px;
+  margin-top: 0;
+  padding: 7px;
+}
+
+.profile-logos span {
+  background-color: #000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+  display: inline-block;
+  height: 99px;
+  margin: 7px;
+  text-align: center;
+  vertical-align: top;
+  width: 144px;
+}
+
+.profile-logos span:before {
+  content: '\200B';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.profile-logos span img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
+==========================
+Logo Colours
+==========================
+*/
+
+#logo-1 {
+  background: linear-gradient(304.47deg, #6E9110 0%, #97BC33 94.48%);
+
+}
+
+#logo-2 {
+  background: linear-gradient(304.47deg, #282828 1.1%, #727272 100%);
+}
+
+#logo-3 {
+  background: linear-gradient(303.56deg, rgba(66, 204, 209, 0.8) 0.57%, rgba(98, 215, 219, 0.8) 102.39%);
+}
+
+#logo-4 {
+  background: linear-gradient(123.44deg, #FF64AA 7.73%, #D11569 100%);
+}
+
+#logo-5 {
+  background: linear-gradient(124.47deg, #FDB43E 1.1%, #FF951A 98.9%);
+}
+
+#logo-6 {
+  background: linear-gradient(126deg, #5D77E0 0%, #213AA0 99.13%);
+}
