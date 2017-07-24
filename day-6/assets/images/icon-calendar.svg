@@ -1,0 +1,44 @@
+<svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>calendar</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(0.5 0 0 0.5 -10324 594)">
+<g id="calendar">
+<g id="calendar 1">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(20648 -1188)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20655 -1176)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20655 -1171)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20655 -1166)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20662 -1166)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20662 -1171)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20662 -1176)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20669 -1166)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20669 -1171)" fill="#65748A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(20669 -1176)" fill="#65748A"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 29.334 3L 25 3L 25 1C 25 0.447 24.553 0 24 0C 23.447 0 23 0.447 23 1L 23 3L 17 3L 17 1C 17 0.447 16.552 0 16 0C 15.448 0 15 0.447 15 1L 15 3L 9 3L 9 1C 9 0.447 8.552 0 8 0C 7.448 0 7 0.447 7 1L 7 3L 2.667 3C 1.194 3 0 4.193 0 5.666L 0 29.333C 0 30.806 1.194 32 2.667 32L 29.334 32C 30.807 32 32 30.806 32 29.333L 32 5.666C 32 4.193 30.807 3 29.334 3ZM 30 29.333C 30 29.701 29.701 30 29.334 30L 2.667 30C 2.299 30 2 29.701 2 29.333L 2 5.666C 2 5.299 2.299 5 2.667 5L 7 5L 7 7C 7 7.553 7.448 8 8 8C 8.552 8 9 7.553 9 7L 9 5L 15 5L 15 7C 15 7.553 15.448 8 16 8C 16.552 8 17 7.553 17 7L 17 5L 23 5L 23 7C 23 7.553 23.447 8 24 8C 24.553 8 25 7.553 25 7L 25 5L 29.334 5C 29.701 5 30 5.299 30 5.666L 30 29.333Z"/>
+<path id="path1_fill" d="M 4 0L 0 0L 0 3L 4 3L 4 0Z"/>
+</defs>
+</svg>

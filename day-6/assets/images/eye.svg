@@ -1,0 +1,18 @@
+<svg width="12" height="7" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(0.5 0 0 0.5 -10968 353.5)">
+<g id="Group">
+<g id="Intersect">
+<use xlink:href="#path0_fill" transform="translate(21936 -707)" fill="#A7B3B6"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path1_fill" transform="translate(21945.3 -703.1)" fill="#F4F8F9"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 6.5C 2.68834 2.56221 7.0617 0 12 0C 16.9383 0 21.3117 2.56221 24 6.5C 21.3117 10.4378 16.9383 13 12 13C 7.0617 13 2.68834 10.4378 0 6.5Z"/>
+<path id="path1_fill" d="M 5.45455 2.65909C 5.45455 4.12767 4.2335 5.31818 2.72727 5.31818C 1.22104 5.31818 0 4.12767 0 2.65909C 0 1.19052 1.22104 0 2.72727 0C 4.2335 0 5.45455 1.19052 5.45455 2.65909Z"/>
+</defs>
+</svg>

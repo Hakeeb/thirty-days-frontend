@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Day 6 | User Settings Page</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700|Raleway:400,600" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <span>
+          <img src="assets/images/logo.png" alt="Trust Union Logo">
+          <p>Trust Union</p>
+        </span>
+        <nav>
+          <ul>
+            <li><a href="#">
+              <img src="assets/images/icon-stack.svg" alt="Dashboard Icon">
+              <span>Dashboard</span>
+            </a></li>
+            <li><a href="#">
+              <img src="assets/images/icon-calendar.svg" alt="My Tasks Icon">
+              <span>My Tasks</span>
+            </a></li>
+            <li><a href="#">
+              <img src="assets/images/icon-note.svg" alt="Payslips Icon">
+              <span>Payslips</span>
+            </a></li>
+            <li><a href="#">
+              <img src="assets/images/icon-star.svg" alt="Appraisal Icon">
+              <span>Appraisal</span>
+            </a></li>
+            <li class="active"><a href="#">
+              <img src="assets/images/icon-settings.svg" alt="Settings Icon">
+              <span>Settings</span>
+            </a></li>
+          </ul>
+        </nav>
+      </div><!--
+      --><div class="main">
+        <header>
+          <img src="assets/images/notify-user-img.png" alt="User Notification Image">
+          <span>3</span>
+          <a href="#">
+            Eleojo Emmanuel
+            <img src="assets/images/dropdown.svg" alt="Dropdown Icon">
+          </a>
+        </header>
+        <div class="details">
+          <nav>
+            <ul>
+              <li class="active"><a href="#">Account</a></li><!--
+              --><li><a href="#">Notifications</a></li><!--
+              --><li><a href="#">Contact</a></li><!--
+              --><li><a href="#">Privacy and Safety</a></li>
+            </ul>
+          </nav>
+          <div class="avatar-block">
+            <img class="user" src="assets/images/user-img.png" alt="User Image">
+            <img class="follow" src="assets/images/follow-icon.png" alt="Follow Icon">
+            <div class="change-avatar">
+              <span></span>
+              <p>Click to change your avatar</p>
+            </div>
+          </div>
+          <form action="#" method="post">
+            <div class="input-block">
+              <label>
+                First Name
+                <input type="text" name="first-name" placeholder="First Name">
+              </label>
+            </div>
+            <div class="input-block">
+              <label>
+                Last Name
+                <input type="text" name="last-name" placeholder="Last Name">
+              </label>
+            </div>
+            <div class="input-block">
+              <label>
+                Username
+                <input type="text" name="username" placeholder="Username">
+              </label>
+            </div>
+            <div class="input-block">
+              <label>
+                Password
+                <input type="password" name="password" placeholder="Password">
+              </label>
+            </div>
+            <div class="input-block">
+              <label>
+                Email address
+                <input type="email" name=email-address placeholder="username@email.com">
+              </label>
+            </div>
+            <div class="input-block">
+              <label>
+                Phone Number
+                <input type="tel" name="" placeholder="(+123) 0801 234 5678">
+              </label>
+            </div>
+            <div class="button-group">
+              <span class="btn-clear"><button type="button" name="clear">Clear Details</button></span><!--
+              --><span class="btn-update"><button type="button" name="submit">Update</button></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
